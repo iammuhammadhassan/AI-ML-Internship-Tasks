@@ -42,5 +42,25 @@ Yahoo Finance (AAPL) data retrieved via yfinance.
 Model Applied: 
 Linear Regression.
 
+
+Task 3: Heart Disease Risk Classification
+Objective: Classify whether a patient is at risk of heart disease based on clinical features (Age, Cholesterol, Heart Rate, etc.).
+
+Data Challenges: * Handled over 600 missing values using Median and Mode Imputation.
+
+Converted categorical text (e.g., Chest Pain Type) into numerical data via One-Hot Encoding.
+
+Applied StandardScaler to normalize features of different magnitudes (e.g., Age vs. Cholesterol).
+
+Model: Logistic Regression.
+
+Evaluation Metrics:
+
+Accuracy: 83.15%
+
+Confusion Matrix: Used to analyze False Negatives (critical in medical AI).
+
+ROC/AUC: Evaluated the model's ability to distinguish between healthy and high-risk patients.
+
 Key Results: 
 Successfully plotted actual vs. predicted prices, showing the model's ability to track market trends.
