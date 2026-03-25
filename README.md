@@ -27,3 +27,20 @@ Histograms showed a bimodal distribution in petal length, confirming the physica
 
 Outliers: 
 The Box Plot identified a few outliers in the sepal_width feature, which are data points that fall outside the typical range for this dataset.
+
+
+
+Task 2:
+Predict Future Stock Prices (Short-Term)
+
+Objective:
+Use historical data to predict the next day's closing price.
+
+Dataset:
+Yahoo Finance (AAPL) data retrieved via yfinance.
+
+Model Applied: 
+Linear Regression.
+
+Key Results: 
+Successfully plotted actual vs. predicted prices, showing the model's ability to track market trends.
